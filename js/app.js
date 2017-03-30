@@ -20,11 +20,31 @@ function calculate(action) {
 }
 var source = [5, 6, 7, 8,];
 var numberSystem = [1, 2, 3, 4].concat(source, [9]);
+//var big = (x > 10) ? true : false;
 // destructuring
 function swapIt(a, b) {
     _a = [b, a], a = _a[0], b = _a[1];
-    return {
-        console: .log("a is :" + a + " b is :" + b)
-    };
+    return;
     var _a;
 }
+//  specifying js types in typescript
+function totalLenght(x, y) {
+    var total = x.length + y.length;
+    //to access array methods  
+    if (x instanceof Array) {
+        x.push('abc');
+    }
+    // to access string methods 
+    if (typeof x === 'string') {
+        alert(x.toLocaleUpperCase());
+    }
+    return total;
+}
+var todo = {
+    name: "stephen njau"
+};
+var $ = function (selector) {
+    // find DOM element
+};
+$.version = 1.12;
+var element = $('#container');
