@@ -1,0 +1,38 @@
+{
+  "name": "typescriptlessons",
+  "version": "1.0.0",
+  "description": "Typescript lessons 0 - 100% ...",
+  "main": "./dist/main.js",
+  "dependencies": {
+    "typescript": "^2.2.1"
+  },
+  "devDependencies": {
+    "browserify": "^14.3.0",
+    "gulp": "^3.9.1",
+    "gulp-typescript": "^3.1.6",
+    "tsify": "^3.0.1",
+    "typescript": "^2.2.2",
+    "vinyl-source-stream": "^1.1.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/njausteve/TypeScriptLessons.git"
+  },
+  "keywords": [
+    "typescript",
+    "javascript",
+    "lessons",
+    "classes",
+    "interfaces",
+    "inheritance"
+  ],
+  "author": "njausteve",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/njausteve/TypeScriptLessons/issues"
+  },
+  "homepage": "https://github.com/njausteve/TypeScriptLessons#readme"
+}
